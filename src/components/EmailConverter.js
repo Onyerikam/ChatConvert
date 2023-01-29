@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ChatRoom from './ChatRoom';
 import ConvertEmailToChat from '../utils/ConvertEmailToChat';
-import './EmailConverter.css';
+import '../styles/EmailConverter.css';
 
 const EmailConverter = () => {
   const [email, setEmail] = useState('');

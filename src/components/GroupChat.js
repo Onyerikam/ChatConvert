@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './GroupChat.css';
+import '../styles/GroupChat.css';
 
 const GroupChat = () => {
   const [message, setMessage] = useState('');
