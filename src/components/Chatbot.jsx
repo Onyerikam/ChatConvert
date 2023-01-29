@@ -10,6 +10,11 @@ const Chatbot = ({ sendMessage, userName }) => {
     setInput("");
   };
 
+  console.log(sendMessage || userName);
+  if (!sendMessage || !userName || !Array.isArray(userName || sendMessage)) {
+    return <div className="chatbotr">No messages or usernames to display</div>;
+  }
+
   return (
     <form className="chatbot">
       <input

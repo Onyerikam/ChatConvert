@@ -2,6 +2,11 @@ import React from 'react';
 import '../styles/ChatMessage.css';
 
 const ChatMessage = ({ chat }) => {
+  console.log(chat);
+  if (!chat || !Array.isArray(chat)) {
+    return <div className="chat-message-container">No chats to display</div>;
+  }
+
   return (
     <div className="chat-message-container">
       <div className="chat-message-header">

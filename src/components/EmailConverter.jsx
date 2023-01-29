@@ -16,6 +16,11 @@ const EmailConverter = () => {
     setChats(convertedChats);
   };
 
+  console.log(chats);
+  if (!chats || !Array.isArray(chats)) {
+    return <div className="email-converter-container">No chats to display</div>;
+  }
+
   return (
     <div className="email-converter-container">
       <div className="email-converter-header">Email Converter</div>

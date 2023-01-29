@@ -5,6 +5,11 @@ const GroupChat = () => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
 
+  console.log(messages);
+  if (!messages || !Array.isArray(messages)) {
+    return <div className="group-chat-container">No chats to display</div>;
+  }
+
   const handleMessageChange = (event) => {
     setMessage(event.target.value);
   };
