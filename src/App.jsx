@@ -7,7 +7,7 @@ import Chatbot from "./components/Chatbot";
 import "./App.css";
 
 function App() {
-  const [currentView, setCurrentView] = useState("chatroom");
+  const [currentView, setCurrentView] = useState("chatmessage");
   const [email, setEmail] = useState("");
   const [groupName, setGroupName] = useState("");
   const [groupMembers, setGroupMembers] = useState([]);
