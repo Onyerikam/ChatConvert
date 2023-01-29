@@ -22,18 +22,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository to your local machine:
 
-```$ git clone https://github.com/<your-username>/ChatConvert.git```
+`$ git clone https://github.com/Onyerikam/ChatConvert.git`
 
 
 2. Install the dependencies:
 
-```$ cd ChatConvert```
-```$ npm install```
+`$ cd ChatConvert`
+`$ npm install`
 
 
 3. Start the development server:
 
-```$ npm start```
+`$ npm start`
 
 
 The app should now be running on `http://localhost:3000`.
@@ -44,7 +44,7 @@ The app should now be running on `http://localhost:3000`.
 
 ## Contributing
 
-If you are interested in contributing to this project, please contact the repository owner.
+If you are interested in contributing to this project, please contact Onyerikam.
 
 ## License
 
